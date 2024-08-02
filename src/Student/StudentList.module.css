@@ -1,0 +1,71 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  .username{
+    text-align: center;
+  }
+  .addLink {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .addLink:hover {
+    text-decoration: underline;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .listItem:last-child {
+    border-bottom: none;
+  }
+  
+  .itemLink {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .itemLink:hover {
+    text-decoration: underline;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
